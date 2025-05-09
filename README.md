@@ -30,10 +30,6 @@ The dataset used for symptom-disease mapping was sourced from Kaggle:
 - Retrieval-Augmented Generation (RAG)
 - [Gradio](https://gradio.app/)
 - [LangChain](https://www.langchain.com/)
-- [Pandas](https://pandas.pydata.org/)
-- [NumPy](https://numpy.org/)
-- [Matplotlib](https://matplotlib.org/)
-
 ---
 
 ## 📦 Installation
@@ -47,17 +43,26 @@ cd Smart-Doctor-Assistant
 ```
 
 2. **Install the required packages:**
+   
 ```bash
 pip install -r requirements.txt
 ```
 
 ## 🚀 Usage
-1. Make sure you have Ollama installed and running locally.
-2. Start the assistant interface:
+
+1.Navigate to the project directory:
+
+```bash
+cd src/models
+```
+2. Make sure you have Ollama installed and running locally.
+3. Start the assistant interface:
 
 ```bash
 python chatbot.py
 ```
+A Gradio UI will open in your browser. Enter symptoms and get medical suggestions instantly.
+
 ## 📄 License
 This project is licensed under the MIT License.
 
