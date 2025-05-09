@@ -1,1 +1,68 @@
-# Smart-Doctor-Assistant
+# Smart Doctor Assistant 🩺🤖
+
+A medical Large Language Model (LLM) system designed to assist individuals in understanding their symptoms and medical test results.
+
+## 🧠 Overview
+
+**Smart Doctor Assistant** is an AI-powered assistant that takes user-provided symptoms and analyzes them to identify possible diseases using Retrieval-Augmented Generation (RAG) integrated with **Ollama** and **ChromaDB**. The system offers personalized guidance and recommendations based on similar historical cases from reliable medical sources.
+
+### ✨ Key Features
+
+- Symptom analysis using local LLM with Ollama.
+- Disease prediction based on a custom-built ChromaDB knowledge base.
+- Reduces unnecessary doctor visits.
+- Enhances public health awareness.
+
+---
+
+## 📚 Dataset
+
+The dataset used for symptom-disease mapping was sourced from Kaggle:
+
+🔗 [Diseases and Symptoms Dataset – Kaggle](https://www.kaggle.com/datasets/dhivyeshrk/diseases-and-symptoms-dataset)
+
+---
+
+## 🛠️ Technologies Used
+
+- [Ollama](https://ollama.com/)
+- ChromaDB
+- Retrieval-Augmented Generation (RAG)
+- [Gradio](https://gradio.app/)
+- [LangChain](https://www.langchain.com/)
+- [Pandas](https://pandas.pydata.org/)
+- [NumPy](https://numpy.org/)
+- [Matplotlib](https://matplotlib.org/)
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/NourNirabi/Smart-Doctor-Assistant.git
+cd Smart-Doctor-Assistant
+
+```
+
+2. **Install the required packages:**
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+1. Make sure you have Ollama installed and running locally.
+2. Start the assistant interface:
+
+```bash
+python chatbot.py
+```
+## 📄 License
+This project is licensed under the MIT License.
+
+## 📬 Contact
+For any questions or suggestions, feel free to contact:
+📧 nournirabi@gmail.com
+
+---
