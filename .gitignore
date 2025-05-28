@@ -20,6 +20,8 @@ parts/
 sdist/
 var/
 wheels/
+data/raw/Final_Augmented_dataset_Diseases_and_Symptoms.csv
+
 share/python-wheels/
 *.egg-info/
 .installed.cfg
