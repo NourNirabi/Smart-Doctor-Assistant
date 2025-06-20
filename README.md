@@ -9,7 +9,11 @@ A medical Large Language Model (LLM) system designed to assist individuals in un
 ### ✨ Key Features
 
 - Symptom analysis using local LLM with Ollama.
-- Disease prediction based on a custom-built ChromaDB knowledge base.
+- Disease prediction powered by a custom ChromaDB vector database built from a dataset of 773 diseases.
+- Uses Hybrid Retrieval (Dense + Sparse) for improved accuracy (Ollama Embeddings + BM25).
+- Employs strict filtering to prevent guessing when no relevant match is found.
+- Rejects vague or non-medical inputs politely.
+- Simple and interactive UI built with Gradio.
 - Reduces unnecessary doctor visits.
 - Enhances public health awareness.
 
@@ -28,8 +32,10 @@ The dataset used for symptom-disease mapping was sourced from Kaggle:
 - [Ollama](https://ollama.com/)
 - ChromaDB
 - Retrieval-Augmented Generation (RAG)
+- BM25 (for keyword-based sparse retrieval)
 - [Gradio](https://gradio.app/)
 - [LangChain](https://www.langchain.com/)
+  
 ---
 
 ## 📦 Installation
